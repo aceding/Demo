@@ -1,0 +1,17 @@
+apply plugin: 'groovy'
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation 'com.android.tools.build:gradle:3.5.3'
+    implementation 'org.ow2.asm:asm:6.0'
+    implementation 'org.ow2.asm:asm-analysis:6.0'
+}
+
+repositories {
+    maven { url "https://maven.aliyun.com/repository/google/" }
+    maven { url "https://maven.aliyun.com/repository/jcenter/" }
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"

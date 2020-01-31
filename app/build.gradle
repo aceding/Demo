@@ -1,4 +1,7 @@
+import com.cj.demo.buildsrc.ASMPlugin
+
 apply plugin: 'com.android.application'
+apply plugin: ASMPlugin
 
 android {
     compileSdkVersion 28
