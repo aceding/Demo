@@ -1,7 +1,7 @@
-import com.cj.demo.buildsrc.ASMPlugin
+import com.cj.demo.CrashDefensePlugin
 
 apply plugin: 'com.android.application'
-apply plugin: ASMPlugin
+apply plugin: CrashDefensePlugin
 
 android {
     compileSdkVersion 28
